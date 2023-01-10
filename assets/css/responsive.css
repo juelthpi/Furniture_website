@@ -1,0 +1,465 @@
+ 
+@media all and (min-width: 991px){
+   
+    .if_home .logo_area{
+        display: none;
+    }
+}
+@media all and (max-width:1200px){
+    .product_tab_inticator {
+       
+        flex-wrap: wrap;
+    }
+    .project_btn {
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 991px){
+    .menu_items ul li a:hover::after {
+        width:0%;
+    }
+    .product_tab_inticator {
+        align-items: flex-start;
+        
+        flex-direction: column;
+    }
+    .ui-widget-header {
+        
+        flex-direction: column;
+    }
+    .logo_area{
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 100%;
+    }
+    .containers{
+        display: block;
+    }
+	.mobile_view{
+        display: block;
+    }
+    .menu{
+        align-items: flex-start;
+    }
+    .des_view{
+        display: none;
+    }
+    .menus_area {
+        justify-content: flex-start;
+        align-items: flex-start;
+        /* flex-direction: column; */
+        flex-basis: 100%;
+        background: #D0D0CB;
+        /* height: 100vh; */
+        flex-wrap: wrap;
+    }
+    .menu_items {
+        flex-basis: 100%;
+    }
+    .menu_items ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .menu_items ul li a {
+        font-size: 15px;
+        font-weight: 500;
+        color: black;
+        padding: 5px 0px;
+        
+    }
+     
+    .menus_area{
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        display: none;
+    }
+    .menu_items {
+        flex-basis: 100%;
+    }
+    .menu_items  ul li{
+        width: 100%;
+    }
+    .menu_items ul li a:hover{
+        background: white;
+    }
+    .menu_items ul li a {
+        transition: 0.5s;
+        padding:5px 10px;
+        border-radius: 5px;
+        display: block;
+    }
+    .menu_items ul li a::after {
+	 
+	transition:1s;
+	 
+}
+.search_form form input {
+	 
+	background: transparent;
+	padding: 5px 10px;
+	margin-left: 22px;
+}
+.header_txt_left {
+	display: none;
+}
+.header_txt_right {
+	margin-left: 0;
+}
+.product_naves h2 {
+	font-size: 26px;
+	 
+}
+.london_thum_out,.london_work_cont{
+	flex-basis: 100%;
+	 
+}
+.london_work_cont {
+ 
+	padding: 35px;
+}
+.london_outter {
+	 
+	flex-wrap:wrap ;
+}
+.footer_left {
+	flex-basis: 100%;
+	 
+	padding: 25% 0;
+}
+.footer_right{
+    flex-basis: 100%;
+}
+.mobile_hide_class{
+
+    display: none;
+}
+.chairs p {
+	width: 100%;
+}
+.london_thum_outs {
+	flex-basis: 100%;
+	 
+}
+.london_thum_outs {
+	 
+	padding: 31% 0;
+}
+.london_thum_order{
+    order: -2;
+}
+.poroduct_slide_thum {
+	height: 450px;
+	 
+}
+.border_hide{
+    border: none;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.aston_sofa_thum_box,.aston_sofa_cont_box {
+	flex-basis: 100%;
+}
+ .aston_heading{
+     margin-top: 25px;
+ }
+ .paddding_m{
+     padding:0;
+ }
+ .mobile_hide_classs{
+     display: none;
+ }
+ .tower_thum_cont p {
+width: 100%;
+}
+.tower_thum_cont p {
+	width: 100%;
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 32px;
+}
+.tower_itmes_box_headign {
+	margin-top: 10px;
+}
+
+
+}
+
+@media all and (max-width: 767px){
+    .careers_right_site {
+        flex-basis: 100%;
+        padding: 34% 0;
+        margin-bottom: 30px;
+    }
+    .careers_left_site {
+        flex-basis:100%;
+         
+    }
+    .careers_right_site{
+        flex-basis: 100%;
+    }
+    .project_similer_demo_area {
+       margin-top: 0;
+    }
+    .similer_demo_left,.similer_demo_center,.similer_demo_right{
+        flex-basis: 100%;
+    }
+    .similer_demo_left,.similer_demo_center{
+        margin-bottom: 15px;
+    }
+    .finesh_wood_area {
+         
+        justify-content: center;
+    }
+    .technical_support_contrac ul {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .upholstery_cont p{
+        max-width: 100%;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        border-top: 2px solid #D0D0CB;
+    }
+    .upphaslasted_area {
+        
+        flex-wrap: wrap;
+    }
+    .showing_box {
+        
+        flex-wrap: wrap;
+    }
+    .upholstery_right_area,.upphaslasted_left_area,.showing_box_left,.showing_box_right{
+        flex-basis:100%;
+    }
+    .mobile_hide_classs{
+        display: none;
+    }
+    .product_filer_options {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .all_hide_chairs{
+        display: block;
+    }
+    .footer_right_inner {
+         
+        flex-wrap: wrap;
+    }
+    .widgets_cus {
+        flex-basis: 100%;
+    }
+    .hero_left_site {
+        
+        padding: 35% 0;
+        
+    }
+    .london_work_cont h3 {
+       
+        font-size: 35px;
+    }
+    .london_work_cont p {
+        
+        padding: 20px 0;
+    }
+    .tab_internal_popup_box h3 {
+       
+        font-size: 40px;
+        
+    }
+	.hero_banner_outter {
+       justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+    .hero_left_sites,.hero_right_sites {
+        flex-basis: 100%;
+    }
+    .hero_left_site{
+        margin-bottom: 30px;
+    }
+    .hero_right_sites{
+        flex-basis: 96%;
+    }
+    .breack_stetment h4 {
+        line-height: 30px;
+        font-size: 28px;
+       
+    }
+    .breack_stetment p {
+       
+        line-height: 32px;
+        font-size: 27px;
+    }.breack_stetment {
+        padding: 60px 0;
+    }
+    .product_area_thums {
+       
+        flex-wrap: wrap;
+    }.product_naves,.product_hero_thum{
+        flex-basis: 100%;
+    }
+    .product_naves h2 {
+        font-size: 25px;
+        background: #D0D0CB;
+        width: 80%;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .product_hero_thum {
+         margin-top: 15px;
+        padding: 35% 0px;
+    }
+    .alter_img_items {
+        flex-basis: 50%;
+        margin: 10px 0;
+    }
+    .aston_box_outter_area .aston_sofa_cont_box{
+        margin-bottom: 15px;
+    }
+    .beautiful_top_cont h4 {
+         
+        font-size: 28px;
+         
+    }
+    .beautiful_top_cont p {
+        font-size: 23px;
+        margin-bottom: 15px;
+        line-height:26px;
+    }
+    .tower_itms_box_thum_small2_padding{
+        padding: 48% 0;
+        margin-bottom: 20px;
+    }
+    .team_m_area2{
+         
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+            
+        
+    }
+    .beautiful_top_cont h4 {
+         
+        line-height: 32px;
+         
+    }
+    .product_gallary_m_ara_padding{
+        padding-bottom: 50px;
+    }
+    .head_office_thum_box {
+        flex-basis: 100%;
+        padding: 48% 0;
+    }
+    .head_office_localtion_box{
+        flex-basis: 100%;
+        margin-top: 30px;
+    }
+    .tower_brige_m_area_2{
+        margin-top:15px;
+    }
+    .head_office_cont_m_area_padding{
+        padding-top: 15px;
+    }
+    .careers_outter_area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 575px){
+    .careers_left_site {
+         
+        margin-left: 25px;
+        
+    }
+    .head_office_location h1 {
+       
+        font-size: 19px;
+    }
+    .team_border_hide_padding{
+        margin-bottom: 0;
+    }
+    .tower_itms_box_thum_small.tower_itms_box_thum_small2 {
+        padding: 48% 0;
+        margin-bottom: 20px;
+    }
+    .frmae_19_btn .custom_btn_area ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .frmae_19_btn .custom_btn_area ul li a {
+        margin-bottom: 0;
+    }
+    .team_m_area .tower_itmes_box_headign h6 {
+        font-size: 24px;
+        
+    }
+	.f_fild_mail {
+        flex-basis: 100%;
+    }
+    .beautiful_page_m_area .aston_heading h3 {
+        padding-right: 0;
+        font-size: 22px;
+    }
+    .form_sub_out {
+         
+        flex-wrap: wrap;
+    }
+    .form_fild_item {
+        width: 100%;
+    }
+    .alter_resolution_m_area {
+        padding: 80px 0;
+    }
+    .tower_brige_heading .tower_left_btn{
+        margin-top: 30px;
+    }
+    .tower_brige_heading .tower_left_btn,.tower_brige_heading .tower_rigt{
+        width: 100%;
+    }
+    .tower_brige_heading .tower_rigt{
+       margin-top:25px;
+    }
+    .tower_brige_heading {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 450px){
+	.header_txt_right p, .hero_right_botton_text p {
+        font-size: 16px;
+       
+    }
+    .alter_img_items {
+        flex-basis:100%;
+    }
+    .london_work_cont p {
+       
+        font-size: 18px;
+         
+    }
+    .header_txt_right h6, .hero_right_botton_text h6 {
+        font-size: 17px;
+         
+    }
+    .poroduct_slide_thum {
+        height: 300px;
+    }
+    .alter_btn_top ul li:last-child{
+        display: none;
+    }
+    .footer_right {
+        flex-basis:100%;
+         
+        padding: 30px;
+         
+        padding-top: 60px;
+    }
+    
+}
